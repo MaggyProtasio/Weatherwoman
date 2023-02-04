@@ -5,7 +5,7 @@
       <a href="https://maggyprotasio.github.io/Weatherwoman/">Weatherwoman</a>
   </h1>
   <a href="https://maggyprotasio.github.io/Weatherwoman/">
-      <img src="https://img.shields.io/badge/Created-April%202022-darkviolet">
+      <img src="https://img.shields.io/badge/Created-April%202022-blue">
    </a>
   <h3>Modern responsive website that shows weather data using Open Weather API</h3>
   <p>Try to find the weather jokes when you search! </p>
