@@ -8,7 +8,7 @@
       <img src="https://img.shields.io/badge/Created-April%202022-blue">
    </a>
   <h3>Modern responsive website that shows weather data using Open Weather API</h3>
-  <p>Try to find the weather jokes when you search! </p>
+  <p>Check out the jokes everytime you search! </p>
   <a href="https://maggyprotasio.github.io/Weatherwoman/">
       <img src="src/screenshot1.jpg">
   </a>
