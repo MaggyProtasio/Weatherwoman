@@ -10,7 +10,7 @@
   <h3>Modern responsive website that shows weather data using Open Weather API</h3>
   <p>Check out the jokes everytime you search! </p>
   <a href="https://maggyprotasio.github.io/Weatherwoman/">
-      <img src="src/screenshot1.jpg">
+      <img src="src/screenshot1.png">
   </a>
   
 </div>
