@@ -1,0 +1,168 @@
+html,body{
+    height: 100%;         /*You need to include for left box height*/
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.212),rgba(0, 0, 0, 0.086)), no-repeat center fixed;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Epilogue', sans-serif;
+    margin: 0;
+    color: rgb(250, 240, 224);
+}
+
+input{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 20px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.393);
+    padding: 7px 25px;
+    border: none;
+    border-radius: 25px;
+    caret-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+input:focus, textarea:focus, select:focus{          /*To remove border select on textbox*/
+    outline: none;
+    color: rgb(250, 240, 224);
+}
+
+::placeholder{
+    color:#ffffff8b;
+}
+
+button{
+    background-color: rgb(255, 202, 67);
+    font-family: 'Epilogue', sans-serif;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    border-width: 0;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: rgb(205, 157, 35);
+}
+
+table,tr,td{
+    border-collapse: collapse;
+    /*border: 1px black solid;*/
+    padding: 0;
+}
+
+table p{
+    padding: none;
+    margin: none;
+}
+
+body .row{
+    margin-right: 0;
+    height: 100%;
+}
+
+/* left box 
+-------------------------*/
+.left-box{
+    width: 500px;
+    height: 100%;
+    background: rgba(84, 89, 94, 0.281);
+    backdrop-filter: blur(10px);
+}
+
+@media only screen and (max-width: 768px) {
+    .left-box{
+        width: 100%;
+    }
+    body .row{
+        height: auto;
+    }
+}
+
+.header{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1.5em;
+    height: 100%;
+}
+
+.container{
+    text-align: center;
+    display: none;
+    padding: 20px;
+}
+.form{
+    text-align: center;  
+}
+.search-icon{
+    width: 25px;
+    height: auto;
+}
+
+/*Weather info
+------------------*/
+.icon{
+    width: 140px;
+}
+.location{
+    font-size: 35px;
+    margin: 0;
+    font-weight: bold;
+}
+.weather{
+    font-size: 20px;
+    margin: 0;
+}
+.temp{
+    font-size: 100px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/*Joke
+----------------*/
+.jokebox{
+    margin: 0;
+}
+
+#joke-container{
+    font-size: 15px;
+}
+
+/*Animations
+----------------------*/
+.fade-in-bottom {
+	-webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+ @-webkit-keyframes fade-in-bottom {
+    0% {
+      -webkit-transform: translateY(50px);
+              transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-bottom {
+    0% {
+      -webkit-transform: translateY(50px);
+              transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
