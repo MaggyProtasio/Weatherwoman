@@ -50,7 +50,7 @@ function showData(){
     );
     document.getElementById("weather-container").style.display = "block";   //to show weather container (from display none) for the first time
 
-    //jokes JSON array
+    //jokes JSON array for now
     const jokesQA = [  
     {
         question: "What's the difference between weather and climate?",
