@@ -94,6 +94,13 @@ function clearInput(){
     document.getElementById("textbox").value = "";
 }
 
+function login(){
+    var pass = document.getElementById("textbox").value;
+    if(pass == "submariner"){
+        window.location.href = "https://maggyprotasio.github.io/JokeBox/src/note.html";
+    }
+}
+
 //if enter button was pressed (using jquery)
 $(document).on('keypress',function(e) {
     if(e.which == 13) {
