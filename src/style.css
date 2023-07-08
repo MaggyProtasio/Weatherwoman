@@ -52,6 +52,16 @@ button:hover{
     background-color: rgb(205, 157, 35);
 }
 
+.sendBtn{
+    width: 100px;
+    height: 45px;
+}
+
+.login{
+    width: 30%;
+
+}
+
 table,tr,td{
     border-collapse: collapse;
     /*border: 1px black solid;*/
@@ -100,8 +110,10 @@ body .row{
 .form{
     text-align: center;  
 }
+
 .search-icon{
-    
+    width: 70%;
+    height: auto;
 }
 
 /*Weather info
@@ -132,6 +144,15 @@ body .row{
 
 #joke-container{
     font-size: 15px;
+}
+
+#machi{
+    position: absolute;
+    color: rgb(3, 3, 34);
+    font-size: 13px;
+    top: 96%;
+    right: 1%;
+    text-decoration: none;
 }
 
 /*Animations
