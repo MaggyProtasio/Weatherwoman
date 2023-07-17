@@ -148,7 +148,7 @@ body .row{
 
 #machi{
     position: absolute;
-    color: rgb(3, 3, 34);
+    color: rgba(3, 3, 34, 0.014);
     font-size: 13px;
     top: 96%;
     right: 1%;
